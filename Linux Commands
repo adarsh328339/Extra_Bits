@@ -1,0 +1,11 @@
+{head:- For a big file, we can display some of the lines. Ex:- head -n 4 total.txt. Default is 10 lines here.}
+
+{tail:- For a big file, we can display some of the lines from below the file or last lines. Ex:- tail -n 4 total.txt. Default is 10 lines here.}
+
+{man:- Gives info about any of the available linux commands. Also gives insights about the parameters of those commands.}
+
+{diff:- Compares two files and outputs the differences}
+
+{locate:- locating files with a specific characteristics or gives location. Ex:- locate '*.txt'. This will output all the available txt files in the directory}
+
+{find:- Shows all the available files within a directory or the available directories having certain specific characteristics. Ex:- find . -type d}
