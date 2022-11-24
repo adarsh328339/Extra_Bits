@@ -2,10 +2,59 @@
 
 {tail:- For a big file, we can display some of the lines from below the file or last lines. Ex:- tail -n 4 total.txt. Default is 10 lines here.}
 
+{touch :- Used to create a new file. mkdir:- used to create a new directory. vi :- Allows us to edit and write things in created files }
+
 {man:- Gives info about any of the available linux commands. Also gives insights about the parameters of those commands.}
 
 {diff:- Compares two files and outputs the differences}
 
 {locate:- locating files with a specific characteristics or gives location. Ex:- locate '*.txt'. This will output all the available txt files in the directory}
 
-{find:- Shows all the available files within a directory or the available directories having certain specific characteristics. Ex:- find . -type d}
+{find:- 
+        Shows all the available files within a directory or the available directories having certain specific characteristics. Ex:- find . -type d
+        Ex:- find . -perm 777 will give all the files having 777 permissions.
+        Ex:- find . -type f -name '*txt' -exec rm -rf {} + :- This command will execute a certain course of action(here delete) to a bunch of files at once
+        
+}
+
+{File Permissions:- 
+    
+    ls -l will show you the file permissions. chmod u or chmod g or chmod g is used to modify the permisiions. u stands for users, g stands 
+    for groups and o stands for oters. r stands for read, w for write and x for execute. Ex:- chmod u=rwx , g=rx, o=x upper.txt
+    
+    A very handy number system incorporates using read = 4, write = 2, and execute = 1. So, doing chmod 547 upper.txt will give (4+1)= read and execute
+    permission to users, read permission to groups and 7(4+2+1) = read, write and execute permissions to others. 
+    0 stands for no permissions.
+    
+    chown:- Changes access permissions. Current user is user. Root user is accessed by sudo. Ex:- chown root upper.txt . Now, no one except root user
+    sudo can change the permissions or edit the file or chmod the file. 
+}
+
+{grep :- used to search a specific part of text in a file. Has different tags to search more specific queries. 
+        Ex:- grep -win "Rahul" ./*.txt :- searchs for rahul in text files present in the .(current) directory and returns the results with matching
+        cases and indicating their line numbers.
+}
+
+{Terminal Shortcuts :- ctrl+A :- Moves the cursor to the start, ctrl+E :- Moves the cursor to the end, tab :- Used for autocomplete, 
+                        UP&Down keys :- For scrolling through the commands, ctrl+R :- Searching through the previous commands, 
+                        ctrl+L :- Clears the entire console, ; is used to write multiple commands at the same time. 
+}
+
+{ Some more commands :- wget :- Used to download files from internet. uname :- Gives the name of kernel. zip :- Zips some of the files provided, 
+    unzip :- Unzips some of the files provided, hostname :- Gives the name of the host. hostname -i :- Gives the IP address 
+}
+
+{ Some OS & Networking related commands :- 
+       lscpu :- CPU details, uname :- Shows the kernel name and has various flags, free :- Shows free memory available, id :- Shows the various ids assigned
+       nslookup :- more info about IP Address and all of a website
+}
+
+> :- overrides, >> :- appends
+    
+
+
+    
+    
+    
+    
+
