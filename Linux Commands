@@ -8,6 +8,10 @@
 
 {diff:- Compares two files and outputs the differences}
 
+{rm :- Used to remove files}
+
+{mv :- Used to move files, cp :- Used to copy files }
+
 {locate:- locating files with a specific characteristics or gives location. Ex:- locate '*.txt'. This will output all the available txt files in the directory}
 
 {find:- 
