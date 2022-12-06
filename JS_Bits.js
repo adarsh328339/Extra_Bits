@@ -2,6 +2,7 @@
 
 arr1 = [1,2,3,4,5,6]
 arr2 = [3,4,5,7]
+arr3=[7,4,5]
 
 const arr_intersect = arr1.filter((ele) => {
     return arr2.includes(ele)
