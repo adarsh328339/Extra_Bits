@@ -1,2 +1,4 @@
 Git and Github Tutorial :- 
 
+Git is basically a version control tool which helps us in keeping track of time and changes occurring in the codebase. 
+Github basically stores the git repositories with all its details and is used to maintain the codebase.
