@@ -30,7 +30,25 @@ else:
     quicksort ( list, left, pivot - 1 );   # The time consists of N loops (iterative or recursive) that are logarithmic, thus combination of linear and logarithmic.
     quicksort ( list, pivot + 1, right );  # Hence, O(N*logN). 
     
-        
+    
+# Sequential stuff constitutes addition and nested stuff constitutes multiplication. 
+# So two sequential loops would not affect each other in Big-O because they're simplified into the one that has higher growth.
+    
+for (int i = 0; i < n; i++):
+    statement
+
+for i in range n:
+    for j in range n:
+        statement
+ 
+# These two loops are additive, with the first being O(n) and the second being O(n^2). So you have precisely O(n + n^2). 
+# But Big-O removes the lower order parts because the higher order parts totally overwhelm the complexity very quickly,
+# and thus the example above has quadratic complexity: O(n^2).
+# The second loop has quadratic complexity because the nested loops are defined in terms of each other. 
+# You multiply the complexity of the inner loop by the steps of the outer loop to get the total complexity. 
+# Since they're both in terms of n, it's a simple matter to say that the two loops combined have quadratic complexity.
+    
+      
  
 
 
