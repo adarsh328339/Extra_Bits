@@ -20,6 +20,9 @@ l1.pop() and l1.append() # These are O(1) operations
 # Insertion and Deletion of elements :- 
 # If inserting or removing the element at beginning, linked list are better and offer O(1) solution.
 # If inserting the element at the end or removing from end, Both linked list and lists behave similarly. 
+# Retreival Of Elements:- 
+# When the element being looked for is known, lists can do it in O(1) while linked list offer a O(n) solution. 
+# While searching for a specific element, both linked list and lists offer O(n).
 
 
 
