@@ -1,0 +1,21 @@
+-- This is a file summing up various facts and pointers I thought were worth noting in Computer Networks -- 
+
+# Internet is a network of certain computers connected to each other through various processes and protocols. Internet connectivity is made live through various 
+  optic fiber cables laid under the ocean that run from country to country. 
+  
+# There are various topologies in which different devices are connected with each other. For ex:- Bus, Ring, Star, Tree and Mesh. 
+  Bus topology is a simple connection of different devices through a single wire line. If connection breaks somwhere, the devices after that point won't work.
+  Ring topology is the connection of various devices in a circular ring. For a device to access some other device, it will have to go through all the devices in between
+  the devices. 
+  Star topology is a centralized network of different devices. One device acts as the central device and controls all the other devices. All the information goes through
+  the central device only. 
+  Tree topology is the intermix of Bus and Star topology. Various star combinations are conected in a Bus Fashion.
+  Mesh topology is an All to All connection of devices where each device is connected with every other device leading to scalability issues.
+  
+# OSI Model stands for *Open Systems Interconnection* model. This layer is responsible for all the background activity, transportation and recieving of data. 
+  OSI Model has 7 layers namely :- Application layer, Presentation layer, Session layer, Transport layer, Network layer, Data Link layer and Physical Layer.
+  Application layer :- This is the layer through which users interact with. Ex:- Whatsapp Client, Web Browser. 
+  
+  
+# There is another more practical model for data transmission that is TCP/IP Model and contains only five layers namely Application layer, Transport layer, 
+  Network layer, Data Link layer and Physical layer.
