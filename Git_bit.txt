@@ -2,3 +2,46 @@ Git and Github Tutorial :-
 
 Git is basically a version control tool which helps us in keeping track of time and changes occurring in the codebase. 
 Github basically stores the git repositories with all its details and is used to maintain the codebase.
+
+# git init :- Initializes the git root folder .git in the project folder. Creates a new repository. 
+
+# git status :- Shows the state of the working directory and the staging area. Shows which changes have been staged and which are not being tracked.
+
+# git log :- Shows us a history of committed changes within a git repository. 
+
+# git reset :- Undo local changes to the state of a git repo. 
+
+# git stash :- Locally saves all the current changes in the current workspace and resets the state of workspace to previous commits. 
+
+# git stash pop :- Moving the stashed file to the unstaged area so that they can be staged. 
+
+# git add :- Adds a changed in the working directory from unstaged area to staged area so that the file can be worked with later and committed on.
+
+# git stash clear :- Deleting the stashed changes. 
+
+# git remote add origin : - Adds the repository to the git workspace through repo url. 
+
+# git remote -v :- Shows us the url or repos we have connected with our local workspace. 
+
+# git push origin master :- Pushing the changes in the local workspace to the hosted repository using the origin url and the master branch.
+
+# git merge :- used to merge the data from seperate branches into a single branch. 
+
+# git clone :- Create a clone or copy of a repo in new directory or at some other location, basically local workspace most of the times. 
+
+# git branch :- used to create a new branch. 
+
+# git checkout(branch name) :- used to checkout or set the head pointing to changes to ths branch. 
+
+# One branch allows only one pull request at a time and all the commits or changes will go on that pull request. So, when working on different features or 
+  something like that, we need to create seperate branchs. We don't commit on the main branch. 
+  
+# If the online repository contains some commit that our workspace does not then we need to force push our changes using git push origin branch_name -f :- basically this is removing a commit from a pull request. 
+
+
+
+
+
+
+  
+
