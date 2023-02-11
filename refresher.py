@@ -52,7 +52,32 @@
     # Loops and other stuff:-
     
     range(start,stop,step)    ''' This is the range function iterating from start to stop-1 with step steps.
-    While Loop is used to iterate as long as the consition is true. Can be used when the condition is unknown. 
+    While Loop is used to iterate as long as the consition is true. Can be used when the condition is unknown. '''
+    
+    
+    
+    # Strings in Pyton:-  
+    
+    ''' Strings are immutable sequence of unicode characters. Can be defined using single quotes, double quotes and triple quotes for multiline or docstring. 
+        To print a string in a new line, the '\n' escape sequence can be used. Negative-indexing is also allowed starting from -1 denoting last character. '''
+        
+    ''' Concatenation of strings using various methods :- 
+    Using the + operator requires both operands to be strings and the result be stored in a new variable since the strings are immutable. 
+    Using the join operator where the syntax is like - '''
+    newString = seperator.join(iterable)
+    ''' % Operator can also be used for string concatenation as well as string formatting - '''
+    var1 = 'Adarsh'
+    var2 = 'Dubey'
+    print('%s %s'%(var1, var2))
+    
+    ''' .format() method can also be used to format string values into respective placeholders, basically {} '''
+    '{}'.format(value) and '{} {}'.format(value1, value2)
+    
+    
+    
+    
+        
+        
     
     
     
