@@ -8,7 +8,7 @@
 
 {diff:- Compares two files and outputs the differences}
 
-{rm :- Used to remove files}
+{rm :- Used to remove files, rm -r :- To remove a directory}
 
 {mv :- Used to move files, cp :- Used to copy files }
 
@@ -55,6 +55,8 @@
 
 > :- overrides, >> :- appends
     
+    
+Note:- With names containing space or special characters, we can use "" to write their names in the shell. 
 
 
     
